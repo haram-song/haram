@@ -1,7 +1,9 @@
 package com.haram.toy.web.dto;
 
 import com.haram.toy.domain.posts.Posts;
+import lombok.Getter;
 
+@Getter
 public class PostsResponseDto {
     private Long id;
     private String title;
